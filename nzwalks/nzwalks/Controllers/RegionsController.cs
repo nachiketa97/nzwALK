@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure;
 using Microsoft.Identity.Client;
 using nzwalks.Models.Domain;
 using nzwalks.Models.DTO;
@@ -146,5 +147,8 @@ namespace nzwalks.Controllers
             return Ok(RegionDTO);
 
         }
+
+        
+    
     }
 }
